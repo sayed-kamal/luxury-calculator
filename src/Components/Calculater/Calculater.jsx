@@ -24,7 +24,9 @@ export default function Operation() {
   };
 
   return (
+
     <div className="calculator">
+      <h1>الة حاسبة</h1>
       <div className="display">
         <div>{input || '0'}</div>
         <div>{result}</div>
